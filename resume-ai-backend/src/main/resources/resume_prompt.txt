@@ -1,0 +1,57 @@
+Generate a professional IT job resume in JSON format based on the following description. Ensure the JSON is consistent, well-structured, and contains all specified keys, even if some values are empty or null. Use the **exact keys and data types** defined below and maintain their hierarchy.
+
+Input Description:
+"{userDescription}"
+
+JSON Structure Requirements
+personalInformation (Object)
+fullName (String)
+email (String)
+phoneNumber (String)
+location (String)
+linkedIn (String or null)
+gitHub (String or null)
+portfolio (String or null)
+summary (String)
+A brief overview of skills, experience, and goals.
+skills (Object)
+programmingLanguages (Array of Strings)
+frameworks (Array of Strings)
+databases (Array of Strings)
+cloud (Array of Strings)
+devOpsTools (Array of Strings)
+otherSkills (Array of Strings)
+experience (Array of Objects)
+Each object contains:
+jobTitle (String)
+company (String)
+location (String)
+duration (String, e.g., "Jan 2020 – Present")
+responsibilities (Array of Strings)
+education (Array of Objects)
+Each object contains:
+degree (String)
+university (String)
+location (String)
+graduationYear (String)
+certifications (Array of Objects)
+Each object contains:
+title (String)
+issuingOrganization (String)
+year (String)
+projects (Array of Objects)
+Each object contains:
+title (String)
+description (String)
+technologiesUsed (Array of Strings)
+githubLink (String or null)
+achievements (Array of Strings)
+List of awards, recognitions, or contributions (can be empty).
+languages (Array of Strings)
+List of spoken languages.
+interests (Array of Strings)
+List of professional interests or hobbies (can be empty).
+Output Guidelines:
+Ensure **all keys** are present, even if values are empty or null.
+Format must be valid JSON: use double quotes, proper nesting, and indentation.
+Use realistic, human-written resume content based on the input description.
